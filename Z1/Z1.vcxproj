@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{FD1754F3-7955-45F8-BE55-E44D1835BF02}</ProjectGuid>
-    <RootNamespace>Z2</RootNamespace>
+    <ProjectGuid>{0571B2F9-614B-4995-978B-D5E47FB355D0}</ProjectGuid>
+    <RootNamespace>Z1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16232.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -111,16 +111,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Footballer.h" />
-    <ClInclude Include="Processor.h" />
-    <ClInclude Include="Team.h" />
-    <ClInclude Include="Person.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Z2.rc" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Reminder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Reminder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
