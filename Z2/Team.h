@@ -12,6 +12,9 @@ public:
 	Team(vector<Footballer> players) {
 		this->Players = players;
 	}
+	void SetName(string name) {
+		Name = name;
+	}
 	int GetCount() {
 		return Players.size();
 	}
